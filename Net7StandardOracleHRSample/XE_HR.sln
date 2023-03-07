@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.0.0
+MinimumVisualStudioVersion = 17.1.0.0
+Project("{4969e78e-41a1-4b46-a7e3-ff4aeb19c343}") = "XE_HR_BackEndCommon", "BackEndCommon\XE_HR_BackEndCommon.csproj", "{b0e95204-cb22-4f51-9ec9-25b2a65b85d1}"
+EndProject
+Project("{4969e78e-41a1-4b46-a7e3-ff4aeb19c343}") = "XE_HR_BackEndHttpServer", "BackEndHttpServer\XE_HR_BackEndHttpServer.csproj", "{1b131c56-c1f3-4955-8cf4-ce5ae565aa34}"
+EndProject
+Project("{4969e78e-41a1-4b46-a7e3-ff4aeb19c343}") = "XE_HR_BackEndDatabaseClient", "BackEndDatabaseClient\XE_HR_BackEndDatabaseClient.csproj", "{3d7fb57e-73ac-414e-b815-e0afc708aa47}"
+EndProject
+Project("{4969e78e-41a1-4b46-a7e3-ff4aeb19c343}") = "XE_HR_BackEndSqlEntities", "BackEndSqlEntities\XE_HR_BackEndSqlEntities.csproj", "{528d9e5b-fe97-4694-b5b8-ff852b408e66}"
+EndProject
+Project("{4969e78e-41a1-4b46-a7e3-ff4aeb19c343}") = "XE_HR_FrontEndHttpClient", "FrontEndHttpClient\XE_HR_FrontEndHttpClient.csproj", "{7ec31ee4-4f59-42bd-a7aa-8b549ec7debe}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{b0e95204-cb22-4f51-9ec9-25b2a65b85d1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b0e95204-cb22-4f51-9ec9-25b2a65b85d1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1b131c56-c1f3-4955-8cf4-ce5ae565aa34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1b131c56-c1f3-4955-8cf4-ce5ae565aa34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3d7fb57e-73ac-414e-b815-e0afc708aa47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3d7fb57e-73ac-414e-b815-e0afc708aa47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{528d9e5b-fe97-4694-b5b8-ff852b408e66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{528d9e5b-fe97-4694-b5b8-ff852b408e66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ec31ee4-4f59-42bd-a7aa-8b549ec7debe}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ec31ee4-4f59-42bd-a7aa-8b549ec7debe}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {c6768c38-79bc-4b64-ab53-932566277b41}
+	EndGlobalSection
+EndGlobal
